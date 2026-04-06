@@ -1,0 +1,7 @@
+# Compiled build artifacts
+bin/
+obj/
+
+# IDE and OS specific files
+.idea/
+.DS_Store
