@@ -1,57 +1,30 @@
-# 📦 Inventory Management System
+# Inventory Management System
 
-A Windows desktop application designed to manage inventory, suppliers, and transactions effectively.  
-The system allows you to add, update, delete, and search for inventory items while maintaining a clean and easy-to-use interface.
+A desktop application built with C# and Windows Forms for managing an inventory of parts and products. It allows users to track stock levels, organize items, and maintain records of both in-house and outsourced components.
 
----
 
-## ✨ Features
+## Tech Stack
 
-✔ Manage inventory (add, update, delete, search)  
-✔ Supplier management  
-✔ Track stock levels  
-✔ Sales and restock transactions  
-✔ Item categorization  
-✔ Search functionality  
-✔ User-friendly Windows Forms Interface  
-✔ Input validation and error handling
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Windows Forms](https://img.shields.io/badge/Windows%20Forms-0C54C2?style=for-the-badge)
 
----
 
-## 🖼 Screenshots
+## Features
 
-> ### 🏠 Dashboard
-> ![Dashboard](Screenshots/Home.png)
->
-> ### 📦 Parts List
-> ![Parts List](Screenshots/Parts.png)
->
-> ### 📦 Products
-> ![Products](Screenshots/Product.png)
+- **Part Management:** Add, update, and delete individual parts from the inventory.
+- **Source Tracking:** Categorize parts as either In-House (tracking machine IDs) or Outsourced (tracking company names).
+- **Product Assembly:** Create products and associate them with the specific parts required to build them.
+- **Inventory Validation:** Enforce minimum and maximum stock levels to ensure inventory stays balanced.
+- **Search Functionality:** Quickly look up specific parts or products by their ID or name directly from the main dashboard.
+- **Local Storage:** Runs entirely in memory for fast, lightweight performance during use.
 
----
+ ---
 
-## 🛠 Tech Stack
+## Screenshots
 
-- C#
-- .NET Framework (Windows Forms)
-- MySQL
-
----
-
-## 🎯 Why This Project?
-
-#### This project demonstrates:
-- Practical implementation of an inventory management workflow
-- Desktop application development using Windows Forms
-- Data validation and error handling
-- Simple but effective user interface for small businesses or personal use
-- CRUD functionality
-
----
-
-## 💡 Future Improvements
-- Export inventory reports to PDF/Excel
-- Stock alert notifications
-- Multi-user login and role system
-- Improved search and filtering capabilities
+|                                                    |
+|:--------------------------------------------------:|
+|   <img src="Screenshots/Home.png"><br>Dashboard    |
+|   <img src="Screenshots/Parts.png"><br>Part List   |
+|<img src="Screenshots/Product.png"><br> Product List|
